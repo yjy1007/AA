@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guide.GuideActivity">
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v4.view.ViewPager>
+
+    <Button
+        android:visibility="gone"
+        android:id="@+id/experience_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textColor="@drawable/selector_text"
+       android:background="@drawable/selector_bg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="26dp"
+        android:text="立即体验" />
+    <RelativeLayout
+        android:layout_width="55dp"
+        android:id="@+id/re"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/image_bt1"
+            android:src="@drawable/gray_point"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:id="@+id/image_bt3"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/gray_point"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:id="@+id/image_bt4"
+            android:layout_marginLeft="40dp"
+            android:src="@drawable/gray_point"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+        <ImageView
+            android:id="@+id/image_bt2"
+            android:src="@drawable/red_point"
+            android:layout_width="10dp"
+            android:layout_height="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>
